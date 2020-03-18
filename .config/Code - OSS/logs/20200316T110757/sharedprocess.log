@@ -1,8 +1,0 @@
-[2020-03-16 11:08:01.193] [sharedprocess] [info] main {"machineId":"32960a7f6ab36f7413888dd4931a6b2f581073cd5ffede0c43c6985b446bdfd1","windowId":2}
-[2020-03-16 11:08:13.454] [sharedprocess] [info] Installing extension: shan.code-settings-sync
-[2020-03-16 11:08:15.068] [sharedprocess] [info] Downloaded extension: shan.code-settings-sync /tmp/5c114cd1-e9cf-46c6-b6f5-19ac8b0148b3
-[2020-03-16 11:08:15.248] [sharedprocess] [info] Extracted extension to /home/pisceskkk/.vscode-oss/extensions/.shan.code-settings-sync-3.4.3: shan.code-settings-sync
-[2020-03-16 11:08:15.248] [sharedprocess] [info] Renamed to /home/pisceskkk/.vscode-oss/extensions/shan.code-settings-sync-3.4.3
-[2020-03-16 11:08:15.249] [sharedprocess] [info] Installation completed. shan.code-settings-sync
-[2020-03-16 11:08:15.259] [sharedprocess] [info] Extensions installed successfully: shan.code-settings-sync
-[2020-03-16 11:08:41.190] [sharedprocess] [info] Starting to clean up unused language packs.

@@ -1,6 +1,0 @@
-2020/03/18-15:38:54.073 41f Reusing MANIFEST /home/pisceskkk/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/03/18-15:38:54.073 41f Recovering log #22
-2020/03/18-15:38:54.082 41f Reusing old log /home/pisceskkk/.config/chromium/Default/Sync Data/LevelDB/000022.log 
-2020/03/18-16:06:56.724 573 Level-0 table #26: started
-2020/03/18-16:06:56.729 573 Level-0 table #26: 113110 bytes OK
-2020/03/18-16:06:56.735 573 Delete type=0 #22
