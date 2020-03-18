@@ -1,0 +1,21 @@
+2020/03/16-21:05:11.332 45a Reusing MANIFEST /home/pisceskkk/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/16-21:05:11.332 45a Recovering log #38
+2020/03/16-21:05:11.335 45a Reusing old log /home/pisceskkk/.config/chromium/Default/Local Storage/leveldb/000038.log 
+2020/03/16-21:49:15.671 bf3 Level-0 table #42: started
+2020/03/16-21:49:15.677 bf3 Level-0 table #42: 15391 bytes OK
+2020/03/16-21:49:15.681 bf3 Delete type=0 #38
+2020/03/16-21:49:15.681 bf3 Compacting 4@0 + 1@1 files
+2020/03/16-21:49:15.699 bf3 Generated table #43@0: 245 keys, 239039 bytes
+2020/03/16-21:49:15.699 bf3 Compacted 4@0 + 1@1 files => 239039 bytes
+2020/03/16-21:49:15.703 bf3 compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/03/16-21:49:15.704 bf3 Delete type=2 #42
+2020/03/16-21:49:15.704 bf3 Delete type=2 #39
+2020/03/16-21:49:15.704 bf3 Delete type=2 #33
+2020/03/16-21:49:15.704 bf3 Delete type=2 #37
+2020/03/16-21:49:15.704 bf3 Delete type=2 #35
+2020/03/16-22:13:13.910 bf3 Level-0 table #45: started
+2020/03/16-22:13:13.922 bf3 Level-0 table #45: 72805 bytes OK
+2020/03/16-22:13:13.927 bf3 Delete type=0 #41
+2020/03/16-22:17:19.259 bf3 Level-0 table #47: started
+2020/03/16-22:17:19.267 bf3 Level-0 table #47: 60968 bytes OK
+2020/03/16-22:17:19.272 bf3 Delete type=0 #44

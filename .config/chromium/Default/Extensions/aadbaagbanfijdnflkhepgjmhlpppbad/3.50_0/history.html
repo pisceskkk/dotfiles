@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title i18n="application_title"></title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="assets/reset.css" />
+
+    <script src="assets/jquery.js"></script>
+
+    <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.css" />
+    <script src="assets/datepicker/jquery.datetimepicker.js"></script>
+
+    <link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <h1 i18n="application_title"></h1>
+        <input id="search" type="search" i18n="placeholder:search_placeholder" placeholder="" autocomplete="off" />
+        <button id="search-btn" i18n="search_btn"></button>
+    </header>
+    <div id="history-summary">
+        <div id="history-summary-separator"></div>
+        <div id="history-summary-text">
+            <div id="history-summary-label" i18n="search_display"></div>
+            <div id="history-summary-search"></div>
+            <a id="history-summary-clear" i18n="search_clear"></a>
+        </div>
+    </div>
+    <div id="main">
+        <div class="sidebar">
+            <div id="datepicker"></div>
+            <a id="datepicker-today" i18n="datepicker_go_today"></a>
+            <div class="copy">
+                <span i18n="created_by"></span> DragonOfMercy<br />
+                <a href="https://github.com/dragonofmercy" target="_blank">https://github.com/dragonofmercy</a>
+            </div>
+        </div>
+        <div id="container"></div>
+    </div>
+
+    <script src="assets/scripts.js"></script>
+
+</body>
+</html>

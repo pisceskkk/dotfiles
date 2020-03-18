@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "libs/purl.js", "libs/moment.js", "js/categories.js", "js/background.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Tracks which websites you spend time on the most.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhLDMWUgCQ03MV+GIEhg4K/0mGf8cAI53QsEzv2oAD97vrpsacGKoxdvRDAOBHHKV4t4ZpqHToGCpnGL5rUAAlEnCTW0Vav2X8wUFwzJzuGxIcLqNAdFz/USTId9VDXxz/HAzqxolkLobwLpyJpQX3zMn8F/O8bFr7CYdGZ8pjs7QJdbRF/xm1QM1NO2fnVIwmOvVRGCD+tYwb9Cr/duUX6gcutsrVVT/0KenF/cBs2HEBsCEc62faWQ4PIol3Y8hx36LKA2YXm/mKMh4xRB1sAVXWWGyxwpO2iuFS1QbJMh7d7IzAJrh2QALAT1JEm+NScoIwGSXK3UBia1FIl1YCwIDAQAB",
+   "manifest_version": 2,
+   "name": "Chrono",
+   "permissions": [ "tabs", "storage", "alarms" ],
+   "short_name": "Chrono",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3"
+}

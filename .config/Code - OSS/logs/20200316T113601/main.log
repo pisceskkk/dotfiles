@@ -1,0 +1,4 @@
+[2020-03-16 11:36:01.310] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2020-03-16 14:11:51.814] [main] [error] [uncaught exception in main]: Error: read ECONNRESET
+[2020-03-16 14:11:51.814] [main] [error] Error: read ECONNRESET
+    at Pipe.onStreamRead (internal/stream_base_commons.js:183:27)

@@ -1,0 +1,18 @@
+00:00:00.475819 VirtualBox GUI VM Selector Window 6.1.4 r136177 linux.amd64 (Mar  9 2020 22:39:15) release log
+00:00:00.475820 Log opened 2020-03-18T04:52:03.487511000Z
+00:00:00.475820 Build Type: release
+00:00:00.475821 OS Product: Linux
+00:00:00.475822 OS Release: 5.5.8-arch1-1
+00:00:00.475823 OS Version: #1 SMP PREEMPT Fri, 06 Mar 2020 00:57:33 +0000
+00:00:00.475834 DMI Product Name: 911Targa
+00:00:00.475839 DMI Product Version: Default string
+00:00:00.475842 Firmware type: UEFI
+00:00:00.476770 Secure Boot: Disabled
+00:00:00.476793 Host RAM: 7849MB (7.6GB) total, 7400MB (7.2GB) available
+00:00:00.476798 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.476798 Process ID: 1404
+00:00:00.476799 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.476813 Qt version: 5.14.1
+00:00:00.516205 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.089959 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 14x33 x 1892x1033
+00:00:01.180190 GUI: UIMediumEnumerator: Medium-enumeration finished!

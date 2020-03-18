@@ -1,0 +1,15 @@
+2020/03/16-21:05:09.184 430 Reusing MANIFEST /home/pisceskkk/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/03/16-21:05:09.184 430 Recovering log #13
+2020/03/16-21:05:09.189 430 Reusing old log /home/pisceskkk/.config/chromium/Default/Sync Data/LevelDB/000013.log 
+2020/03/16-22:01:42.632 6f3 Level-0 table #17: started
+2020/03/16-22:01:42.647 6f3 Level-0 table #17: 105602 bytes OK
+2020/03/16-22:01:42.651 6f3 Delete type=0 #13
+2020/03/16-22:01:42.651 6f3 Compacting 4@0 + 1@1 files
+2020/03/16-22:01:42.661 6f3 Generated table #18@0: 57 keys, 9169 bytes
+2020/03/16-22:01:42.661 6f3 Compacted 4@0 + 1@1 files => 9169 bytes
+2020/03/16-22:01:42.665 6f3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/03/16-22:01:42.665 6f3 Delete type=2 #12
+2020/03/16-22:01:42.665 6f3 Delete type=2 #8
+2020/03/16-22:01:42.665 6f3 Delete type=2 #17
+2020/03/16-22:01:42.665 6f3 Delete type=2 #10
+2020/03/16-22:01:42.665 6f3 Delete type=2 #14

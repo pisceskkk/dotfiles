@@ -1,0 +1,56 @@
+{
+   "application_description": {
+      "message": "Replace the default Chrome history with this better history plugin."
+   },
+   "application_title": {
+      "message": "Chrome Better History"
+   },
+   "created_by": {
+      "message": "Created by"
+   },
+   "date_day_names": {
+      "message": "Sun|Mon|Tue|Wed|Thu|Fri|Sat|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
+   },
+   "date_format": {
+      "message": "dddd, mmmm d, yyyy"
+   },
+   "date_month_names": {
+      "message": "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|May|June|July|August|September|October|November|December"
+   },
+   "date_week_start": {
+      "message": "1"
+   },
+   "datepicker_go_today": {
+      "message": "Display today"
+   },
+   "history_date_empty": {
+      "message": "This day has no history entries"
+   },
+   "history_recent": {
+      "message": "Recent history"
+   },
+   "history_remove_single": {
+      "message": "Remove entry"
+   },
+   "history_view_more": {
+      "message": "View full history"
+   },
+   "language": {
+      "message": "en"
+   },
+   "search_btn": {
+      "message": "Search history"
+   },
+   "search_clear": {
+      "message": "[Clear all in search result]"
+   },
+   "search_clear_confirm": {
+      "message": "Are you sure you want to remove all entry in search result?\nThis operation cannot be undone!"
+   },
+   "search_display": {
+      "message": "Search results for"
+   },
+   "search_placeholder": {
+      "message": "Search in history"
+   }
+}

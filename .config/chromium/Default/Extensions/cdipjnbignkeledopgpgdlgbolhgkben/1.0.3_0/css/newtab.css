@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#charts {
+    padding-top: 100px;
+    color: white;
+    z-index: 1;
+}
+
+.website {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.website-list-header {
+    color: white;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.built-by {
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.built-by a, .built-by a:visited {
+    color: #a9a9a9;
+    text-decoration: underline;
+}
+
+.heart {
+    color: red;
+}
+
+.row.full-width {
+    width: 100%;
+    max-width: 100%;
+}
+
+.category-buttons {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+#change-category-modal {
+    color: black;
+}
+
+.change-category-list {
+    margin-left: 25px;
+}

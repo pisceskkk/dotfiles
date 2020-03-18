@@ -1,0 +1,67 @@
+// 将键绑定放在此文件中以覆盖默认值auto[]
+[
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+k ctrl+w",
+        "command": "-workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+k w",
+        "command": "-workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "f10",
+        "command": "extension.node-debug.startWithStopOnEntry",
+        "when": "debugConfigurationType == 'node'"
+    },
+    {
+        "key": "f10",
+        "command": "-extension.node-debug.startWithStopOnEntry",
+        "when": "!inDebugMode && debugConfigurationType == 'node'"
+    },
+    {
+        "key": "f10",
+        "command": "code-runner.run",
+        "when": "!inDebugMode && editorLangId != 'markdown'"
+    },
+    {
+        "key": "f10",
+        "command": "markdown.showPreview",
+        "when": "!inDebugMode && editorLangId == 'markdown'"
+    },
+    {
+        "key": "f10",
+        "command": "markdown.extension.togglePreview",
+        "when": "!inDebugMode && editorLangId == 'markdown' && !terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "markdown.extension.togglePreview",
+        "when": "!terminalFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-markdown.extension.togglePreview",
+        "when": "!terminalFocus"
+    }
+]

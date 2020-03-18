@@ -1,0 +1,56 @@
+{
+   "application_description": {
+      "message": "Remplace l'historique Chrome par défaut par un meilleur."
+   },
+   "application_title": {
+      "message": "Chrome Better History"
+   },
+   "created_by": {
+      "message": "Créer par"
+   },
+   "date_day_names": {
+      "message": "Dim|Lun|Mar|Mer|Jeu|Ven|Sam|Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi"
+   },
+   "date_format": {
+      "message": "dddd, d mmmm yyyy"
+   },
+   "date_month_names": {
+      "message": "Jan|Fev|Mar|Avr|Mai|Jun|Jui|Aou|Sep|Oct|Nov|Déc|Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Août|Septembre|Octobre|Novembre|Décembre"
+   },
+   "date_week_start": {
+      "message": "1"
+   },
+   "datepicker_go_today": {
+      "message": "Afficher aujourd'hui"
+   },
+   "history_date_empty": {
+      "message": "Il n'y a pas d'entrée d'historique pour ce jour"
+   },
+   "history_recent": {
+      "message": "Historique récent"
+   },
+   "history_remove_single": {
+      "message": "Supprimer l'entrée"
+   },
+   "history_view_more": {
+      "message": "Voir l'historique complet"
+   },
+   "language": {
+      "message": "fr"
+   },
+   "search_btn": {
+      "message": "Rechercher"
+   },
+   "search_clear": {
+      "message": "[Supprimer tout les elements ci-dessous]"
+   },
+   "search_clear_confirm": {
+      "message": "Êtes-vous sûr de vouloir supprimer tout les elements du résultat de recherche ?\nCette opération ne peut pas être annulée !"
+   },
+   "search_display": {
+      "message": "Résultats de recherche pour"
+   },
+   "search_placeholder": {
+      "message": "Rechercher dans l'historique"
+   }
+}

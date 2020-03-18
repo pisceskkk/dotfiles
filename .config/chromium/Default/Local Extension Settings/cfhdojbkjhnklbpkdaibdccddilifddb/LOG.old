@@ -1,0 +1,45 @@
+2020/03/16-21:05:11.462 430 Reusing MANIFEST /home/pisceskkk/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/03/16-21:05:11.462 430 Recovering log #69
+2020/03/16-21:05:11.580 430 Level-0 table #72: started
+2020/03/16-21:05:11.751 430 Level-0 table #72: 4945389 bytes OK
+2020/03/16-21:05:11.796 430 Delete type=0 #69
+2020/03/16-21:06:12.391 6f3 Level-0 table #75: started
+2020/03/16-21:06:12.452 6f3 Level-0 table #75: 4945141 bytes OK
+2020/03/16-21:06:12.456 6f3 Delete type=0 #73
+2020/03/16-21:06:16.345 6f3 Level-0 table #77: started
+2020/03/16-21:06:16.406 6f3 Level-0 table #77: 4945384 bytes OK
+2020/03/16-21:06:16.410 6f3 Delete type=0 #74
+2020/03/16-21:06:16.411 6f3 Compacting 4@0 + 2@1 files
+2020/03/16-21:06:16.510 6f3 Generated table #78@0: 1 keys, 4945141 bytes
+2020/03/16-21:06:16.514 6f3 Generated table #79@0: 3 keys, 452 bytes
+2020/03/16-21:06:16.514 6f3 Compacted 4@0 + 2@1 files => 4945593 bytes
+2020/03/16-21:06:16.517 6f3 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/16-21:06:16.518 6f3 Delete type=2 #67
+2020/03/16-21:06:16.518 6f3 Delete type=2 #77
+2020/03/16-21:06:16.518 6f3 Delete type=2 #75
+2020/03/16-21:06:16.518 6f3 Delete type=2 #70
+2020/03/16-21:06:16.518 6f3 Delete type=2 #72
+2020/03/16-21:06:16.518 6f3 Delete type=2 #68
+2020/03/16-21:06:18.015 6f3 Level-0 table #81: started
+2020/03/16-21:06:18.079 6f3 Level-0 table #81: 4945331 bytes OK
+2020/03/16-21:06:18.083 6f3 Delete type=0 #76
+2020/03/16-21:41:40.170 6f3 Level-0 table #83: started
+2020/03/16-21:41:40.276 6f3 Level-0 table #83: 4945141 bytes OK
+2020/03/16-21:41:40.279 6f3 Delete type=0 #80
+2020/03/16-22:06:12.827 6f3 Level-0 table #85: started
+2020/03/16-22:06:12.914 6f3 Level-0 table #85: 4945418 bytes OK
+2020/03/16-22:06:12.919 6f3 Delete type=0 #82
+2020/03/16-22:06:14.728 6f3 Level-0 table #87: started
+2020/03/16-22:06:14.828 6f3 Level-0 table #87: 4945389 bytes OK
+2020/03/16-22:06:14.832 6f3 Delete type=0 #84
+2020/03/16-22:06:14.836 6f3 Compacting 4@0 + 2@1 files
+2020/03/16-22:06:14.979 6f3 Generated table #88@0: 1 keys, 4945145 bytes
+2020/03/16-22:06:14.984 6f3 Generated table #89@0: 3 keys, 453 bytes
+2020/03/16-22:06:14.984 6f3 Compacted 4@0 + 2@1 files => 4945598 bytes
+2020/03/16-22:06:14.988 6f3 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/03/16-22:06:14.988 6f3 Delete type=2 #78
+2020/03/16-22:06:14.988 6f3 Delete type=2 #81
+2020/03/16-22:06:14.988 6f3 Delete type=2 #79
+2020/03/16-22:06:14.988 6f3 Delete type=2 #87
+2020/03/16-22:06:14.988 6f3 Delete type=2 #85
+2020/03/16-22:06:14.988 6f3 Delete type=2 #83

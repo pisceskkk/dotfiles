@@ -1,0 +1,24 @@
+{
+   "browser_action": {
+      "default_icon": "assets/icon-16.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_application_title__"
+   },
+   "chrome_url_overrides": {
+      "history": "history.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_application_description__",
+   "icons": {
+      "128": "assets/icon-128.png",
+      "16": "assets/icon-16.png",
+      "48": "assets/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhqL4iHL4+XE/8IUJW+L6b2FBqfClLcPP5r5YM/NMcr0/IEMAw0pHNoMfwwmjSnwx5UAV39hWqfmXSNVh1spRH9s3nhrDP5sYHCm3Jo7QDrFPqB2f69K9bnyGE9I4N0VGjvS2bp/CFhEiuha97LZJTqx+OvtBYC1pb1eKt0KeA6aULyKj0XXyzMj0Qkh9DTDHOdx1OQchVosZDLTkTYpo7a9E0OKWhoWevZCCK24ZYnp9MQ2q/2bGfxQpwbxFV36CnLd5Bvc5Xruhs50mQbdYLqZLwyN8ExNhRCWUIwYrfR0ffDb0zMY45Gb0yzKyfZ4KoIKu9dxv8h1uwJ6XS5zejwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_application_title__",
+   "permissions": [ "history", "chrome://favicon/", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.50"
+}

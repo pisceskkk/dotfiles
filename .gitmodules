@@ -1,0 +1,33 @@
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule ".vim/plugged/nerdtree"]
+	path = .vim/plugged/nerdtree
+	url = /home/pisceskkk/dotfiles/.vim/plugged/nerdtree
+[submodule ".vim/plugged/rainbow_parentheses.vim"]
+	path = .vim/plugged/rainbow_parentheses.vim
+	url = /home/pisceskkk/dotfiles/.vim/plugged/rainbow_parentheses.vim
+[submodule ".vim/plugged/tabnine-vim"]
+	path = .vim/plugged/tabnine-vim
+	url = /home/pisceskkk/dotfiles/.vim/plugged/tabnine-vim
+[submodule ".vim/plugged/vim-airline"]
+	path = .vim/plugged/vim-airline
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-airline
+[submodule ".vim/plugged/vim-airline-themes"]
+	path = .vim/plugged/vim-airline-themes
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-airline-themes
+[submodule ".vim/plugged/vim-textobj-function"]
+	path = .vim/plugged/vim-textobj-function
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-textobj-function
+[submodule ".vim/plugged/vim-textobj-indent"]
+	path = .vim/plugged/vim-textobj-indent
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-textobj-indent
+[submodule ".vim/plugged/vim-textobj-parameter"]
+	path = .vim/plugged/vim-textobj-parameter
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-textobj-parameter
+[submodule ".vim/plugged/vim-textobj-syntax"]
+	path = .vim/plugged/vim-textobj-syntax
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-textobj-syntax
+[submodule ".vim/plugged/vim-textobj-user"]
+	path = .vim/plugged/vim-textobj-user
+	url = /home/pisceskkk/dotfiles/.vim/plugged/vim-textobj-user
