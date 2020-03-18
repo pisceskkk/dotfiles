@@ -1,0 +1,17 @@
+#!/bin/bash
+# get all filename in specified path
+
+path=$PWD
+files=$(ls -a $path)
+for file in $files
+do
+    if [ $file != '.' ] && [ $file != '..' ] && [ $file != '.git' ] && [ $file != 'run' ]
+    then
+        ln -s $path/$file ~/$file
+        if [ $? -eq 0 ]
+        then
+            echo link $path/$file to ~/$file successfully!
+        fi
+    fi
+done
+echo done.
