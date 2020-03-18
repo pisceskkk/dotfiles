@@ -14,6 +14,8 @@ There are some dotfiles:
 
 ## TODO
 
-[ ] add script to check and install these apps
+-[ ] add script to check and install these apps
 
-[ ] modify `run` to select specific file
+-[ ] modify `run` to select specific file
+
+-[ ] add script to check dependences
