@@ -1,7 +1,9 @@
 {
     "telemetry.machineId": "32960a7f6ab36f7413888dd4931a6b2f581073cd5ffede0c43c6985b446bdfd1",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/pisceskkk/dotfiles"
+        ],
         "files2": [
             "file:///home/pisceskkk/.config/polybar/config",
             "file:///mnt/Software/%E5%BE%AE%E4%BA%91%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B/1019382143/%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6/%E8%A3%85%E6%9C%BA%E5%BF%85%E5%A4%87/%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95.txt",
@@ -42,7 +44,23 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/pisceskkk/dotfiles",
+                                        "external": "file:///home/pisceskkk/dotfiles",
+                                        "path": "/home/pisceskkk/dotfiles",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dotfiles"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -113,8 +131,7 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
@@ -187,8 +204,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -196,8 +212,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -390,7 +405,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -661,54 +677,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
@@ -1373,15 +1380,17 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/pisceskkk/.config/Code - OSS/Backups/1584360736159",
+            "folder": "file:///home/pisceskkk/dotfiles",
+            "backupPath": "/home/pisceskkk/.config/Code - OSS/Backups/b9c9a7a2aeea03e2fe6aa19b99bc6a4a",
             "uiState": {
                 "mode": 1,
-                "x": 964,
-                "y": 41,
-                "width": 942,
-                "height": 1025
+                "x": 14,
+                "y": 33,
+                "width": 1892,
+                "height": 1033
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/pisceskkk"
 }

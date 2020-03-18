@@ -1,0 +1,3 @@
+[2020-03-18 14:29:47.759] [renderer1] [warning] [File Watcher (chokidar)] Error: ELOOP: too many symbolic links encountered, stat '/home/pisceskkk/dotfiles/.config/.config'
+[2020-03-18 14:29:47.846] [renderer1] [warning] [File Watcher (chokidar)] Error: ELOOP: too many symbolic links encountered, stat '/home/pisceskkk/dotfiles/.oh-my-zsh/.oh-my-zsh'
+[2020-03-18 14:29:47.846] [renderer1] [warning] [File Watcher (chokidar)] Error: ELOOP: too many symbolic links encountered, stat '/home/pisceskkk/dotfiles/.vim/.vim'

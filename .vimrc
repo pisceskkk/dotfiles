@@ -16,7 +16,7 @@ set shell=/bin/bash
 
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " Edit Setting
-set spell spelllang=en_us   " spell checker
+" set spell spelllang=en_us   " spell checker
 set undofile        " save undo in a extra file
 set autochdir       " auto change the direction to where the current file is
 set noerrorbells    " no bells for error
@@ -24,7 +24,7 @@ set history=1000    " the number of rembered undos
 set list            " visual extra space at the end of line
 
 " Color Setting
-colorscheme morning	" awesome colorscheme
+colorscheme delek	" awesome colorscheme
 syntax enable		" enable syntax processing
 set background=light
 set t_Co=256
