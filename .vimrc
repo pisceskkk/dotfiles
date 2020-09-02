@@ -1,4 +1,3 @@
-
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
@@ -24,7 +23,7 @@ set history=1000    " the number of rembered undos
 set list            " visual extra space at the end of line
 
 " Color Setting
-colorscheme delek	" awesome colorscheme
+colorscheme default	" awesome colorscheme
 syntax enable		" enable syntax processing
 set background=light
 set t_Co=256
@@ -64,16 +63,10 @@ set ignorecase      " ignore case when searching
 " Folding Setting
 set foldenable		" enable folding
 set foldlevelstart=10   " open most folds by default
-" space open/closes folds
-nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
   
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " Movement Setting
-
-" move vertically by visual line
-nnoremap j gj
-nnoremap k gk
 
 " move to beginning/end of line
 nnoremap B ^
@@ -81,22 +74,15 @@ nnoremap E $
 
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " Leader Shortcuts
+let mapleader=" "
 
 " jk is escape
 inoremap jk <esc>
-" autocomplete parentheses and quotation marks
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap { {}<Esc>i
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-" then move outside
-imap ,, <Esc>la
 
 " set F9 to complie
 nnoremap <silent> <F9> : call Compile()<CR>
 " set F5 to run
-nnoremap <silent> <F5> : call Run()<CR>
+nnoremap <silent> <leader>n : call Run()<CR>
 " set F6 to debug
 nnoremap <silent> <F6> : call Debug()<CR>
 
@@ -123,9 +109,12 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-Plug 'kien/rainbow_parentheses.vim'
-
 Plug 'zxqfl/tabnine-vim'
+Plug 'scrooloose/syntastic'
+Plug 'majutsushi/tagbar'
+
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'airblade/vim-gitgutter'
 
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-indent'
@@ -135,13 +124,35 @@ Plug 'sgur/vim-textobj-parameter'
 
 
 Plug 'scrooloose/nerdtree'
+
+Plug 'vim-scripts/vim-auto-save'
+Plug 'rhysd/accelerated-jk'
+
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'edkolev/tmuxline.vim'
+
+Plug 'tpope/vim-surround'
+
+Plug 'jiangmiao/auto-pairs'
+Plug 'lervag/vimtex'
 " Initialize plugin system
 call plug#end()
 
 
 " Plugin Configuration
+" syntastic
+execute pathogen#infect()
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 " NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif   " if NERDTree is the only window, close it
+nnoremap <silent> <leader>f : NERDTree<CR>
 
 " RainbowParentheses
 au VimEnter * RainbowParenthesesToggle
@@ -149,6 +160,32 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+" tagbar
+nmap <leader>t :TagbarToggle<CR>
+
+" auto-save
+let g:auto_save_silent = 1
+autocmd FileType markdown let g:auto_save
+
+" gitgutter
+let g:gitgutter_map_keys = 0
+set updatetime=1000 "ms
+
+nmap j <Plug>(accelerated_jk_gj)
+nmap k <Plug>(accelerated_jk_gk)
+
+" vimtex
+set completeopt=menu,preview
+let g:vimtex_view_method = 'zathura'
+let g:tex_flavor = 'latex'
+
+let &rtp = '~/.vim/plugged/vimtex,' . &rtp
+let &rtp = '~/.vim/plugged/vimtex/after,' . &rtp
+let g:vimtex_quickfix_open_on_warning = 0
+nnoremap <leader><leader>f
+    \ :exec "!szathura %:r.pdf" line('.')  col('.') "% > /dev/null"<cr><cr>
+nnoremap <leader><leader>F
+    \ :exec "!szathura %:r.pdf" > /dev/null 2>&1 &"<cr><cr>
 "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 " Functioins
 function! Compile()
@@ -159,6 +196,8 @@ function! Compile()
     exec "!gcc % -g -o %<"
   elseif &filetype == "python"
     exec "!time python3 %"
+  elseif &filetype == "tex"
+    exec "VimtexCompile"
   endif
 endfunction
 
@@ -219,7 +258,6 @@ function! SetTitle()
         call append(line(".")+4, "")
     endif
     "新建文件后，自动定位到文件末尾
-    autocmd BufNewFile * normal G
 endfunction
 
 
