@@ -51,7 +51,7 @@ bindsym $mod+Shift+q kill
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec i3-dmenu-desktop
 
 # change focus
 bindsym $mod+h focus left
@@ -78,7 +78,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+semicolon split h
+bindsym $mod+mod1+h split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -202,7 +202,7 @@ bindsym --release $mod+Print exec "scrot -u -b -m ~/Pictures/Screenshots/$(date 
 bindsym --release $mod+Shift+Print exec "scrot -s -b -m ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H:%M:%S).png "
 
 # Automatically putting clients on specific workspaces
-assign [class="Notion-app"] $ws7
+assign [title="notion-app"] $ws7
 assign [class="Chromium"] $ws1
 assign [title="V2Milk"] $ws8
 assign [class="win10"] $ws9
@@ -219,7 +219,7 @@ exec --no-startup-id virtualbox #virtualbox
 # exec --no-startup-id clipit
 exec --no-startup-id volumeicon
 #exec_always --no-startup-id blueman-applet #bluetooth
-exec --no-startup-id notion #Notion
+exec --no-startup-id notion-app #Notion
 
 # Set windows attributes
 new_window none
