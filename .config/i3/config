@@ -204,6 +204,7 @@ bindsym --release $mod+Shift+Print exec "scrot -s -b -m ~/Pictures/Screenshots/$
 # Automatically putting clients on specific workspaces
 assign [class="Notion-app"] $ws7
 assign [class="Chromium"] $ws1
+assign [title="V2Milk"] $ws8
 assign [class="win10"] $ws9
 assign [class="VirtualBox Manager"] $ws10
 
@@ -212,12 +213,13 @@ assign [class="VirtualBox Manager"] $ws10
 exec_always nitrogen --set-zoom-fill /home/pisceskkk/Pictures/Wallpapers/tb.jpg
 exec_always --no-startup-id fcitx5
 exec_always compton --config /home/pisceskkk/.config/compton/config
+exec --no-startup-id /home/pisceskkk/Applications/ByWave_1.2.1_linuxx86_64.appimage #ByWave
 exec --no-startup-id chromium #chromium
 exec --no-startup-id virtualbox #virtualbox
 # exec --no-startup-id clipit
 exec --no-startup-id volumeicon
 #exec_always --no-startup-id blueman-applet #bluetooth
-exec --no-startup-id Notion #Notion
+exec --no-startup-id notion #Notion
 
 # Set windows attributes
 new_window none

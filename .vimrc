@@ -110,7 +110,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'zxqfl/tabnine-vim'
-Plug 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic', { 'for':['c','cpp','python','java','tex','makedown','css','html','javascript'] }
 Plug 'majutsushi/tagbar'
 
 Plug 'kien/rainbow_parentheses.vim'
@@ -132,9 +132,9 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'edkolev/tmuxline.vim'
 
 Plug 'tpope/vim-surround'
-
 Plug 'jiangmiao/auto-pairs'
-Plug 'lervag/vimtex'
+
+Plug 'lervag/vimtex', { 'for':['tex'] }
 " Initialize plugin system
 call plug#end()
 
