@@ -82,7 +82,9 @@ inoremap jk <esc>
 " set F9 to complie
 nnoremap <silent> <F9> : call Compile()<CR>
 " set F5 to run
-nnoremap <silent> <leader>n : call Run()<CR>
+nnoremap <silent> <F5> : call Run()<CR>
+" set <leader>n to compile and run
+nnoremap <silent> <leader>n : call CompileAndRun()<CR>
 " set F6 to debug
 nnoremap <silent> <F6> : call Debug()<CR>
 
@@ -121,9 +123,13 @@ Plug 'kana/vim-textobj-indent'
 Plug 'kana/vim-textobj-syntax'
 Plug 'kana/vim-textobj-function', { 'for':['c', 'cpp', 'vim', 'java'] }
 Plug 'sgur/vim-textobj-parameter'
+Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 
 
 Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'xuyuanp/nerdtree-git-plugin'
 
 Plug 'vim-scripts/vim-auto-save'
 Plug 'rhysd/accelerated-jk'
@@ -131,10 +137,15 @@ Plug 'rhysd/accelerated-jk'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'edkolev/tmuxline.vim'
 
-Plug 'tpope/vim-surround'
-Plug 'jiangmiao/auto-pairs'
-
 Plug 'lervag/vimtex', { 'for':['tex'] }
+Plug 'mattn/emmet-vim', { 'for':['css', 'js', 'html'] }
+Plug 'suan/vim-instant-markdown', { 'for':['markdown'] }
+
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'scrooloose/nerdcommenter'
+Plug 'kien/ctrlp.vim'
+
 " Initialize plugin system
 call plug#end()
 
@@ -148,11 +159,17 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 1
+let g:syntastic_auto_jump = 2
 " NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif   " if NERDTree is the only window, close it
 nnoremap <silent> <leader>f : NERDTree<CR>
+let g:NERDTreeGitStatusIndicatorMapCustom = { 'Modified'  :'✹', 'Staged'    :'✚', 'Untracked' :'✭', 'Renamed'   :'➜', 'Unmerged'  :'═', 'Deleted'   :'✖', 'Dirty'     :'✗', 'Ignored'   :'☒', 'Clean'     :'✔︎', 'Unknown'   :'?' }
+let g:NERDTreeShowHidden = 1
+let g:NERDTreeGitStatusShowIgnored=1
+let g:nredtree_tabs_open_on_console_startup=1
+
 
 " RainbowParentheses
 au VimEnter * RainbowParenthesesToggle
@@ -166,6 +183,7 @@ nmap <leader>t :TagbarToggle<CR>
 " auto-save
 let g:auto_save_silent = 1
 autocmd FileType markdown let g:auto_save
+autocmd FileType tex let g:auto_save
 
 " gitgutter
 let g:gitgutter_map_keys = 0
@@ -207,8 +225,12 @@ function! Run()
   elseif &filetype == "python"
     exec "w"
     exec "!time python3 %"
-
   endif
+endfunction
+
+function! CompileAndRun()
+    call Compile()
+    call Run()
 endfunction
 
 function! Debug()

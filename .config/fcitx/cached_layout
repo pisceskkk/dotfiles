@@ -12,6 +12,7 @@ English (US):us:English (Dvorak, left-handed):dvorak-l:en
 English (US):us:English (Dvorak, right-handed):dvorak-r:en
 English (US):us:English (classic Dvorak):dvorak-classic:en
 English (US):us:English (programmer Dvorak):dvp:en
+English (US):us:English (US, Symbolic):symbolic:en
 English (US):us:Russian (US, phonetic):rus:ru
 English (US):us:English (Macintosh):mac:en
 English (US):us:English (intl., with AltGr dead keys):altgr-intl:en
@@ -117,7 +118,6 @@ Indian:in:Tamil (Inscript):tam:ta
 Indian:in:Telugu:tel:te
 Indian:in:Telugu (KaGaPa, phonetic):tel-kagapa:te
 Indian:in:Telugu (Sarala):tel-sarala:te
-Indian:in:Telugu (KaGaPa, phonetic):tel-kagapa:te
 Indian:in:Urdu (phonetic):urd-phonetic:ur
 Indian:in:Urdu (alt. phonetic):urd-phonetic3:ur
 Indian:in:Urdu (Windows):urd-winkeys:ur
@@ -127,8 +127,8 @@ Indian:in:Hindi (KaGaPa, phonetic):hin-kagapa:hi
 Indian:in:Sanskrit (KaGaPa, phonetic):san-kagapa:sa
 Indian:in:Marathi (KaGaPa, phonetic):mar-kagapa:mr
 Indian:in:English (India, with rupee):eng:en
-Indian:in:Indic IPA (IIPA):iipa:en
-Indian:in:मराठी इन्स्क्रिप्ट:marathi:en
+Indian:in:Indic (phonetic, IPA):iipa:
+Indian:in:Marathi (enhanced Inscript):marathi:mr
 Indian:in:Modi (KaGaPa phonetic):modi-kagapa:mr
 Bosnian:ba:bs
 Bosnian:ba:Bosnian (with guillemets):alternatequotes:bs
@@ -146,6 +146,7 @@ Portuguese (Brazil):br:Portuguese (Brazil, Sun Type 6/7):sun_type6:pt
 Bulgarian:bg:bg
 Bulgarian:bg:Bulgarian (traditional phonetic):phonetic:bg
 Bulgarian:bg:Bulgarian (new phonetic):bas_phonetic:bg
+Bulgarian:bg:Bulgarian (enhanced):bekl:bg
 Kabylian (azerty layout, no dead keys):dz:
 Kabylian (azerty layout, no dead keys):dz:Kabylian (azerty layout, with dead keys):azerty-deadkeys:kab
 Kabylian (azerty layout, no dead keys):dz:Kabylian (qwerty-gb layout, with dead keys):qwerty-gb-deadkeys:kab
@@ -295,7 +296,10 @@ German:de:de
 German:de:German (dead acute):deadacute:de
 German:de:German (dead grave acute):deadgraveacute:de
 German:de:German (no dead keys):nodeadkeys:de
+German:de:German (E1):e1:de
+German:de:German (E2):e2:de
 German:de:German (T3):T3:de
+German:de:German (US):us:de
 German:de:Romanian (Germany):ro:ro
 German:de:Romanian (Germany, no dead keys):ro_nodeadkeys:ro
 German:de:German (Dvorak):dvorak:de
@@ -309,7 +313,6 @@ German:de:German (QWERTY):qwerty:de
 German:de:Turkish (Germany):tr:
 German:de:Russian (Germany, phonetic):ru:ru
 German:de:German (dead tilde):deadtilde:de
-German:de:German (US):us:en
 German:de:German (with Hungarian letters, no dead keys):hu:de
 German:de:Polish (Germany, no dead keys):pl:de
 German:de:German (Sun Type 6/7):sun_type6:de
@@ -350,7 +353,7 @@ Hungarian:hu:Hungarian (QWERTY, 102-key, comma, no dead keys):102_qwerty_comma_n
 Hungarian:hu:Hungarian (QWERTY, 102-key, dot, dead keys):102_qwerty_dot_dead:hu
 Hungarian:hu:Hungarian (QWERTY, 102-key, dot, no dead keys):102_qwerty_dot_nodead:hu
 Hungarian:hu:Old Hungarian:oldhun:hu
-Hungarian:hu:Old Hungarian (for ligatures):ohu_lig:hu
+Hungarian:hu:Old Hungarian (for ligatures):oldhunlig:hu
 Icelandic:is:is
 Icelandic:is:Icelandic (Sun dead keys):Sundeadkeys:is
 Icelandic:is:Icelandic (no dead keys):nodeadkeys:is
@@ -596,6 +599,7 @@ Turkish:tr:Crimean Tatar (Turkish Q):crh:crh
 Turkish:tr:Crimean Tatar (Turkish F):crh_f:crh
 Turkish:tr:Crimean Tatar (Turkish Alt-Q):crh_alt:crh
 Turkish:tr:Turkish (Sun Type 6/7):sun_type6:tr
+Turkish:tr:Old Turkic:otk:tr
 Taiwanese:tw:
 Taiwanese:tw:Taiwanese (indigenous):indigenous:tay
 Taiwanese:tw:Saisiyat (Taiwan):saisiyat:xsy
